@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lidiyah | UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@700;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Lidiyah<span class="dot">.</span></a>
+            
+            <div class="nav-links" id="navLinks">
+                <a href="#about">Tentang</a>
+                <a href="#experience">Pengalaman</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact">Kontak</a>
+                <a href="assets/cv-lidiyah.pdf" class="btn btn-primary" download>
+                    Unduh CV <i data-lucide="download" class="btn-icon"></i>
+                </a>
+            </div>
+
+            <button class="hamburger" id="hamburger">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="badge">✨ UI/UX & Frontend</span>
+                <h1>Halo, Saya <br><span class="highlight">Khalidiyah Wihda</span></h1>
+                <p>Mahasiswa Pendidikan Teknik Informatika UNM yang gemar menciptakan desain antarmuka yang playful dan fungsional.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-secondary">Lihat Karya</a>
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                        <a href="#" aria-label="GitHub"><i data-lucide="github"></i></a>
+                        <a href="#" aria-label="Dribbble"><i data-lucide="dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="blob-bg"></div>
+                <img src="assets/images/profile.jpg.jpeg" alt="Foto Lidiyah" class="profile-img">
+                <div class="float-shape shape-1"></div>
+                <div class="float-shape shape-2"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee-container">
+        <div class="marquee-content">
+            <span>Figma</span> • <span>UI/UX Design</span> • <span>HTML/CSS</span> • <span>Canva</span> • <span>Teamwork</span> • <span>Problem Solving</span> • <span>Figma</span> • <span>UI/UX Design</span> • <span>HTML/CSS</span> •
+        </div>
+    </div>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Pengalaman <span class="squiggly">~</span></h2>
+            <div class="grid-2">
+                <div class="card card-sticker rotate-left">
+                    <div class="card-icon bg-secondary">
+                        <i data-lucide="briefcase"></i>
+                    </div>
+                    <h3>AI Center of Excellence</h3>
+                    <p class="role">Magang (General Affair)</p>
+                    <p class="date">2025 - Sekarang</p>
+                    <p class="desc">Bertanggung jawab dalam pengelolaan operasional, administrasi anggaran, dan mendukung penyelenggaraan event partnership.</p>
+                </div>
+                <div class="card card-sticker rotate-right">
+                    <div class="card-icon bg-quaternary">
+                        <i data-lucide="graduation-cap"></i>
+                    </div>
+                    <h3>SMKN 7 Makassar</h3>
+                    <p class="role">Guru Basis Data</p>
+                    <p class="date">2025</p>
+                    <p class="desc">Mengajar siswa mengenai dasar-dasar database dan manajemen data secara efektif.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section bg-dot">
+        <div class="container">
+            <h2 class="section-title">Proyek Pilihan</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card border-violet">
+                    <div class="project-thumb bg-violet-light">
+                        <span>Project Screenshot 1</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="tag">UI/UX Case Study</span>
+                        <h3>Aplikasi E-Learning</h3>
+                        <p>Redesain antarmuka platform belajar online untuk meningkatkan pengalaman pengguna siswa.</p>
+                        <a href="#" class="btn-link">Lihat Detail <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card border-pink">
+                    <div class="project-thumb bg-pink-light">
+                        <span>Project Screenshot 2</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="tag">Web Design</span>
+                        <h3>Company Profile Startup</h3>
+                        <p>Landing page responsif untuk startup teknologi dengan pendekatan visual geometris.</p>
+                        <a href="#" class="btn-link">Lihat Detail <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card border-yellow">
+                    <div class="project-thumb bg-yellow-light">
+                        <span>Project Screenshot 3</span>
+                    </div>
+                    <div class="project-content">
+                        <span class="tag">Mobile App</span>
+                        <h3>Food Delivery App</h3>
+                        <p>Konsep aplikasi pengantaran makanan dengan fokus pada kemudahan checkout.</p>
+                        <a href="#" class="btn-link">Lihat Detail <i data-lucide="arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container footer-content">
+            <h2>Ayo Kerja Bareng!</h2>
+            <p>Tertarik berkolaborasi atau sekadar menyapa? Kirimkan email ke saya.</p>
+            <a href="mailto:jjustlid@gmail.com" class="btn btn-primary btn-large">
+                jjustlid@gmail.com <i data-lucide="mail"></i>
+            </a>
+            <div class="footer-links">
+                <p>&copy; 2026 Khalidiyah Wihda. Built with Playful Geometric System.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
